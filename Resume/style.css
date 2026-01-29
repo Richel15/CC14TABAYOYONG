@@ -266,13 +266,13 @@ body {
 .coursework-paragraph {
     font-size: 0.95rem;
     line-height: 1.8;
-    color: var(--light-slate); /* Or var(--slate) depending on the background */
+    color: var
     text-align: justify;
-    max-width: 600px; /* Keeps the line length comfortable to read */
+    max-width: 600px; 
 }
 
 .coursework-paragraph strong {
-    color: var(--electric); /* Highlights your key skills in your theme color */
+    color: var(--electric); 
     font-weight: 700;
 }
 
