@@ -1,76 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Richel C. Tabayoyong - Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richel C. Tabayoyong | Professional Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Navigation -->
-<nav>
-<a href="#about"> About Me | </a>
-<a href="#education"> Education | </a>
-<a href="#skills">Skills | </a>
-<a href="#certificates">Certificates | </a>
-<a href="#contact">Contact | </a>
-</nav>
+    <nav class="navbar">
+        <div class="nav-logo">RT<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">Education</a></li>
+            <li><a href="#skills">Skills</a></li> 
+            <li><a href="#portfolio">Projects</a></li>
+        </ul>
+    </nav>
 
-<img src="me.png" alt="Richel C. Tabayoyong"/>
+<section id="hero" class="hero" style="--bg-image:url('me.png');">
+        <div class="hero-grid">
+            <div class="hero-left">            
+	    <p>Hey I'm</p>
+            <h1>RICHEL</h1>
+            <div class="job-divider">
+                <span>BSIT // ERP Specialist</span>
+            </div>
+            
+            <ul class="focus-list">
+                <li>ERP Modules & Integration</li>
+                <li>Systems Analysis & Design</li>
+                <li>Database Management (SQL)</li>
+            </ul>
 
-<!-- Header -->
-<header>
-<h2>Richel C. Tabayoyong</h2>
-<p>BSIT - Enterprise Resource Planning</p>
-</header>
+           <div class="hero-contact-footer">
+    <a href="mailto:rchltabayoyong@gmail.com" class="contact-pill">
+        <span class="icon">✉️</span> Email Me
+    </a>
+    
+    <a href="tel:09153869543" class="contact-pill phone-accent">
+        <span class="icon">📞</span> 09153869543
+    </a>
+</div>
+        </div>
 
-<!-- About Me -->
-<section id="about">
-<h2>About Me</h2>
-<p>Motivated IT student pursuing a Bachelor of Science in Information Technology with a focus on Enterprise Resource Planning. Skilled in creating web applications, analyzing data, and learning new technologies to enhance technical expertise.</p>
-</section>
+        <div class="hero-right">
+            <div class="software-header">
+                <h2>Softwares</h2>
+                <div class="icon-strip">
+                    <div class="skill-icon">Py</div>
+                    <div class="skill-icon">SQL</div>
+                    <div class="skill-icon">Java</div>
+                    <div class="skill-icon">Fig</div>
+                    <div class="skill-icon">MS</div>
+                </div>
+            </div>
 
-<!-- Education -->
-<section id="education">
-<h2>Education</h2>
-<p><strong>College:</strong> University of the Cordilleras</p>
-<p><strong>Degree:</strong> Bachelor of Science in Information Technology</p>
-<p><strong>Major:</strong> Enterprise Resource Planning</p>
-<p><strong>Year:</strong> 2024 - Present</p>
-</section>
+            <p class="hero-bio">
+                Motivated <strong>BSIT – ERP major</strong> with hands-on knowledge of enterprise resource planning concepts, system analysis, and data-driven decision support. Seeking opportunities to contribute to ERP implementation and optimization projects. I am adept at leveraging technical tools to streamline workflows and provide actionable insights. Seeking opportunities to contribute to ERP implementation and optimization projects where I can apply my problem-solving skills and technical proficiency. I am committed to helping businesses maximize their software ROI through meticulous system configuration, user support, and continuous process improvement in a fast-paced corporate environment.
+            </p>
 
-<!-- Skills -->
-<section id="skills">
-<h2>Skills</h2>
-<ul>
-<li>HTML, CSS, JavaScript</li>
-<li>Web Application Development</li>
-<li>Database Management (MySQL)</li>
-<li>Data Analysis & Visualization</li>
-<li>Cybersecurity Basics</li>
-<li>Problem-Solving & Critical Thinking</li>
-</ul>
-</section>
+<div class="signature-container">
+    <div class="signature-box">
+        <div class="signature">Richel Tabayoyong</div>
+    </div>
+    
+    <div class="profile-circle-wrapper">
+        <img src="portrait.png" alt="Richel" class="profile-circle">
+    </div>
+</div></section>
+    <section id="about" class="details-section">
+        <span class="section-label">Academic Profile</span>
+        <div class="content-grid">
+            <div class="info-block">
+                <div class="edu-card">
+                    <span class="status-pill">Active Student</span>
+                    <h3>Bachelor of Science in Information Technology</h3>
+                    <p style="color: var(--electric); font-weight: 700; font-size: 1.2rem; margin-bottom: 10px;">Major in Enterprise Resource Planning</p>
+                    <p style="opacity: 0.7;">University of the Cordilleras</p>
+                    <p style="font-weight: 700; margin-top: 10px;">Expected Graduation: 2027</p>
+                </div>
+            </div>
+           <div class="info-block">
+    <span class="section-label">Specialized Coursework</span>
+    <p class="coursework-paragraph">
+        My academic journey is deeply rooted in the complexities of modern enterprise environments, focusing on the seamless <strong>integration of ERP modules</strong> and the strategic execution of <strong>Systems Analysis and Design</strong>. I have cultivated a robust technical foundation in <strong>Database Management</strong> and <strong>Data Modeling</strong>, utilizing <strong>SQL</strong> to drive data-centric decision-making. Beyond core infrastructure, my expertise extends to the lifecycle of <strong>IT Project Management</strong>, ensuring scalable solutions are delivered with precision. Complementing this technical backend is a strong proficiency in <strong>Web Development</strong>, allowing me to bridge the gap between complex system architectures and intuitive, user-focused digital interfaces.
+    </p>
+</div>
+        </div>
+    </section>
 
-<!-- Certificates -->
-<section id="certificates">
-<h2>Certificates</h2>
-<img src="cert1.png" alt="Certificate 1"/>
-<img src="cert2.png" alt="Certificate 2"/>
-</section>
+    <section id="skills" class="skills-section">
+        <span class="section-label">Technical Skills</span>
+        
+        <div class="tech-dashboard">
+            <div class="terminal-window">
+                <div class="terminal-bar">
+                    <div class="terminal-dots"><span></span><span></span><span></span></div>
+                    <div class="terminal-title">stack_capabilities.sys</div>
+                </div>
+                <div class="terminal-body">
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Python // Java</span><span class="pct">85%</span></div>
+                        <div class="skill-bar"><div class="fill" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>SQL (MySQL)</span><span class="pct">90%</span></div>
+                        <div class="skill-bar"><div class="fill" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>ERP Concepts & System Analysis</span><span class="pct">80%</span></div>
+                        <div class="skill-bar"><div class="fill" style="width: 80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Web Development (HTML/CSS/JS)</span><span class="pct">95%</span></div>
+                        <div class="skill-bar"><div class="fill" style="width: 95%"></div></div>
+                    </div>
+                </div>
+            </div>
 
-<!-- Contact -->
-<section id="contact">
-<h2>Contact</h2>
-<p><strong>Phone:</strong> 09178049140</p>
-<p><strong>Email:</strong> rchltabayoyong@gmail.com</p>
-<p><strong>Address:</strong> Aurora Hill, Baguio City, Benguet, Philippines</p>
-</section>
+            <div class="tools-command-list">
+                <h4 class="tool-title">> RUN ecosystem_scan</h4>
+                <div class="tool-pill-grid">
+                    <span class="tool-pill">Git / GitHub</span>
+                    <span class="tool-pill">VS Code</span>
+                    <span class="tool-pill">Adobe Suite</span>
+                    <span class="tool-pill">3D Modeling</span>
+                    <span class="tool-pill">Process Mapping</span>
+                    <span class="tool-pill">MS Office</span>
+                </div>
+            </div>
+        </div>
 
-<!-- Footer -->
-<footer>
-<p>&copy; 2026 Richel C. Tabayoyong</p>
-</footer>
+        <div class="soft-skills-container">
+            <span class="section-label">Soft Skills</span>
+            <div class="log-grid">
+                <div class="log-item">
+                    <span class="log-index">[01]</span>
+                    <div class="log-content">
+                        <h5>Logical Reasoning</h5>
+                        <p>Analytical problem-solving and structured thinking.</p>
+                    </div>
+                </div>
+                <div class="log-item">
+                    <span class="log-index">[02]</span>
+                    <div class="log-content">
+                        <h5>Active Listening</h5>
+                        <p>Precise requirement gathering and alignment.</p>
+                    </div>
+                </div>
+                <div class="log-item">
+                    <span class="log-index">[03]</span>
+                    <div class="log-content">
+                        <h5>Attention to Detail</h5>
+                        <p>Ensuring data integrity and system accuracy.</p>
+                    </div>
+                </div>
+                <div class="log-item">
+                    <span class="log-index">[04]</span>
+                    <div class="log-content">
+                        <h5>Adaptability</h5>
+                        <p>Thriving in evolving enterprise environments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="portfolio" class="portfolio">
+        <span class="section-label">Deployment Registry // Projects</span>
+        
+        <div class="project-log-container">
+            <div class="project-entry">
+                <div class="entry-header">
+                    <span class="entry-id">ID: 001</span>
+                    <span class="entry-status status-online">LIVE</span>
+                </div>
+                <div class="entry-body">
+                    <span class="tag">IT Project</span>
+                    <h3>Smart Barangay E-Services Portal</h3>
+                    <p>Centralized digital portal for local government services.</p>
+                    <div class="entry-tech-stack">
+                        <span>UX/UI</span> <span>Figma</span> <span>System Design</span>
+                    </div>
+                </div>
+                <div class="entry-footer">
+                    <span class="role-tag">ROLE: UX/UI DESIGNER</span>
+                    <a href="#" class="view-btn">EXPAND_FILE</a>
+                </div>
+            </div>
+
+            <div class="project-entry">
+                <div class="entry-header">
+                    <span class="entry-id">ID: 002</span>
+                    <span class="entry-status status-stable">STABLE</span>
+                </div>
+                <div class="entry-body">
+                    <span class="tag">Technoprenuership</span>
+                    <h3>Artwork Authentication</h3>
+                    <p>Digital and physical asset verification system architecture.</p>
+                    <div class="entry-tech-stack">
+                        <span>Security</span> <span>Architecture</span> <span>Asset Mgmt</span>
+                    </div>
+                </div>
+                <div class="entry-footer">
+                    <span class="role-tag">ROLE: UX/UI DESIGNER</span>
+                    <a href="#" class="view-btn">EXPAND_FILE</a>
+                </div>
+            </div>
+
+            <div class="project-entry">
+                <div class="entry-header">
+                    <span class="entry-id">ID: 003</span>
+                    <span class="entry-status status-stable">STABLE</span>
+                </div>
+                <div class="entry-body">
+                    <span class="tag">Case Study</span>
+                    <h3>La Sabores Cartel</h3>
+                    <p>Restaurant Procurement and Inventory Management architecture.</p>
+                    <div class="entry-tech-stack">
+                        <span>ERP</span> <span>Inventory</span> <span>Procurement</span>
+                    </div>
+                </div>
+                <div class="entry-footer">
+                    <span class="role-tag">ROLE: SYSTEM ANALYST</span>
+                    <a href="#" class="view-btn">EXPAND_FILE</a>
+                </div>
+            </div>
+
+            <div class="project-entry">
+                <div class="entry-header">
+                    <span class="entry-id">ID: 004</span>
+                    <span class="entry-status status-stable">STABLE</span>
+                </div>
+                <div class="entry-body">
+                    <span class="tag">Case Study</span>
+                    <h3>Macao Imperial Tea</h3>
+                    <p>Supply chain efficiency and Inventory Management analysis.</p>
+                    <div class="entry-tech-stack">
+                        <span>Logistics</span> <span>SCM</span> <span>Optimization</span>
+                    </div>
+                </div>
+                <div class="entry-footer">
+                    <span class="role-tag">ROLE: SYSTEM ANALYST</span>
+                    <a href="#" class="view-btn">EXPAND_FILE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="tech-footer">
+        <div class="footer-terminal-wrap">
+            <span class="section-label" style="text-align: center;">End of Transmission</span>
+            
+            <div class="footer-main-text">
+                <h2 class="thank-you-tech">THANK YOU<span class="blink">_</span></h2>
+                <h2 class="contact-outline-tech">LET'S GET CONTACT</h2>
+            </div>
+
+            <div class="footer-metadata-grid">
+                <div class="meta-box">
+                    <span class="meta-label">LOCATION_SITE</span>
+                    <p>BENGUET, PHILIPPINES</p>
+                </div>
+
+                <div class="meta-box center-box">
+                    <span class="meta-label">COMM_PROTOCOLS</span>
+                    <p>EMAIL: <a href="mailto:rchltabayoyong@gmail.com">RCHLTABAYOYONG@GMAIL.COM</a></p>
+                    <p>MOBILE: 09153869543</p>
+                </div>
+
+                <div class="meta-box">
+                    <span class="meta-label">VERSION_CONTROL</span>
+                    <p>© 2026 RICHEL C. TABAYOYONG</p>
+                    <p>ALL SYSTEMS NOMINAL</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
